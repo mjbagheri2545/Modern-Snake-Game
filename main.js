@@ -3,7 +3,6 @@ const TIME_INTERVAL = 170;;
 let bodyParts = 0;
 let direction = 'right';
 let pos;
-let frame = 0;
 class Vector{
     constructor(x = 0,y = 0){
         this.x = x;
