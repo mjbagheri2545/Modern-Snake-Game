@@ -1,13 +1,21 @@
 body{
     margin: 0;
-    height: 800px;
+    height: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
 }
 canvas{
-    background-color: rgb(0, 20, 5);
-    height: 500px;
-    width: 600px;
+    background: linear-gradient(to left top, rgb(0, 26, 5), rgb(5, 42, 12));
+    border: 3px solid rgb(118, 122, 118);
+}
+.gameover{
+    position: absolute;
+    top: 600px;
+    left: 545px;
+    font-size: 40px;
+    font: bold;
+    color: white;
+    font-family: verdana;
 }
