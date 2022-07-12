@@ -8,8 +8,29 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<canvas id="canvas">
-</canvas>
+    <h1>
+        your best score : <span class="best-score">0</span>
+    </h1>
+    <h1>
+        your score : <span class="score">0</span>
+    </h1>
+<div class="container">
+    <div class="guide">
+        <h2>Guide</h2>
+        <div class="details">use <span class="key">w</span> for move up</div> 
+        <div class="details">use <span class="key">s</span> for move down</div> 
+        <div class="details">use <span class="key">d</span> for move right</div> 
+        <div class="details">use <span class="key">a</span> for move left</div>
+        <div class="details">use <span class="key">space</span> to start</div>
+    </div>
+    <canvas id="canvas">
+    </canvas>
+</div>
+    <div class="speed">
+    <label for="gamespeed">Game Speed</label>
+    <input type="range" id="gamespeed" min="100" max="1000" value="100" class="gamespeed">
+    <span class="speedValue">100</span>
+    </div>
 <script src="main.js"></script>
 </body>
 </html>
